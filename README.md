@@ -1,6 +1,6 @@
 # Election_Analysis
 
-## Project Overview
+## Overview of Election Audit
 
 A Colorado Board of Elections employee has given you the following tasks to complete the
 election audit of a recent local congressional election.
@@ -15,19 +15,15 @@ election audit of a recent local congressional election.
 - Data Source: election_results.csv
 - Software: Python 3.7.6, Visual Studio Code 1.54.3
 
-## Summary
-The analysis of the election show that:
-- There were "369,711" votes cast in the election.
-- The candidates were:
-  - Charles Casper Stockham
-  - Diana DeGette
-  - Raymon Anthony Doane
-- The candidate results were:
-  - Charles Casper Stockham received "23.0%" of the vote and "85,213" number of votes.
-  - Diana DeGette received "73.8%" of the vote and "272,892" number of votes.
-  - Raymon Anthony Doane received "3.1%" of the vote and "11,606" number of votes.
-- The winner of the election was:
-  - Candidate (Diana DeGette), who received "73.8%" of the vote and "272,892" number of votes.
+## Election-Audit Results
+The total number of votes in the congressional election was 369,711. Denver county garnered the most votes out the three counties with 82.8% (306,055 votes) of the total votes. Jefferson and Arapahoe came in way behind Denver county with 10.5% and 6.7% of the total votes, respectively.
 
-## Challenge Overview
-## Challenge Summary
+Diana DeGette convincingly won the election with 73.8% (272,892 votes) of the total votes. Charles Casper Stockham was the runner-up with 23% (85,213 votes) of the total votes. Coming in a distant third palce was Raymon Anthony Doane with 3.1% (11,606 votes) of the total votes.
+
+![image](https://github.com/jb-ut/Election_Analysis/blob/main/Resources/election_results.PNG)
+
+## Election Audit Summary
+This code should be considered for future elections and can be modified in two ways which could be of potential interest.
+
+1. Add party affiliation to see how candidates peformed within and outside of their party.
+2. Add geographic data to include city to identify any trends between rural or metropoiltan cities.
